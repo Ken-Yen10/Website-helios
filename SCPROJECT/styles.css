@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background-color: #0a0a0a;
+}
+/*
+This increases padding */
+.topnav {
+    display: flex;
+    align-items: center;
+    padding: 30;
+    
+}
+
+.topnav {
+    justify-content: flex-end;
+    background-color:  #A52A2A;
+    height: 200px;
+}
+/*
+This makes the text go right, do not touch text align> */
+img {
+    float: left;
+    width: 500px;
+    
+}
+.Navigation {
+    flex: 1;
+    text-align: right;
+}
+/*set text indent to 100 if coupon */
+ ul li {
+display: inline-block;
+margin-right: 100px;
+text-indent: 100px;
+list-style-type: none;
+
+
+}
+
+.Navigation ul li a {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    position: relative;
+    color: gainsboro;
+    top: 5px;
+    letter-spacing: 0.5px;
+ list-style-type: none;
+}
+.Navigation ul li a:after {
+content: "";
+position: absolute;
+height: 3px;
+width: 100%;
+left: 0;
+bottom: -10px;
+transition: 0.3s;
+
+}
+.Navigation ul li a:hover {
+    color: blue;
+}
+
+
+
+
+.Navigation ul li a:hover:after {
+    width: 100%
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img {
+    width: 800px;
+    height: 1000px;
+}
+.categories {
+    margin: 70px 0;
+    top:75px;
+    position: flex;
+
+}
+.col-3 {
+    flex-basis: 30%
+    flex-width: 250px;
+}
+.col-3 {
+    width: 100%;
+}
+.col-3 img {
+    height: 900px;
+    width: 800px;
+    margin-top:1000px;
+
+}
+
+  
+  .slider{
+    width: 1000px;
+    height: 700px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+  
+  .slides{
+    width: 1000%;
+    height: 500px;
+    display: flex;
+   
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 1000px;
+    height: 750px;
+    margin-top: 50px;
+   
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin-top: 100px;
+    
+  }
+  .row {
+    display: flex;
+    margin-top: 100px;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .newpage {
+    align-items: center;
+    justify-content: center;
+
+  }
+  .gallery {
+    flex-basis: 47%;
+
+  }
+  .gallery img {
+    width: 100%;
+    display:block;
+    margin-top:100px;
+  }
+  
+  .newpage{
+    position: relative;
+}
+h1 {
+    text:align: margin-right;
+}
+.details {
+  position: absolute;
+  top: -50px;
+  text-align: right;
+}

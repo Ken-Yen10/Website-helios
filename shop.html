@@ -1,0 +1,118 @@
+<!Doctype html>
+<html>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<link rel= "stylesheet" href="styles.css">
+
+
+<head>
+    <title>Winter Clothing</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+
+</head>
+<Body> 
+    <div class="topnav">
+		<div class="logo">
+
+		</div>
+		<nav class="Navigation">
+      <div class="Logom">
+        <img src="D:/coding/SCPROJECT/Images/logo-winterwear.jpg.png" width="125px" height="174px">
+      </div>
+		<ul>	
+      <li><a href="coupon.html">Redeem code</a></li>
+        <li><a href="shop.html">Shop</a></li>
+       <li><a href="aboutme.html">About me</a></li>
+      
+    </ul>
+		</nav>
+    </div>
+
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+      <head>
+        <meta charset="utf-8">
+        <title>Image Slider</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+    
+        <!--image slider start-->
+        <div class="slider">
+          <div class="slides">
+            <!--radio buttons start-->
+            <input type="radio" name="radio-btn" id="radio1" class="center">
+            <input type="radio" name="radio-btn" id="radio2" class="center">
+            <input type="radio" name="radio-btn" id="radio3" class="center">
+            <input type="radio" name="radio-btn" id="radio4" class="center">
+            <!--radio buttons end-->
+            <!--slide images start-->
+            <div class="slide first">
+              <img src="D:/coding/SCPROJECT/Images/smiley.jpg" class="center" alt="">
+            </div>
+            <div class="slide">
+              <img src="D:/coding/SCPROJECT/Images/patrickfinal.jpg" class="center" alt="">
+            </div>
+            <div class="slide">
+              <img src="D:/coding/SCPROJECT/Images/derekzoolander.jpg" class="center" alt="">
+            </div>
+            <div class="slide">
+              <img src="" alt="" class="center">
+            </div>
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <div class="navigation-auto">
+              
+              <div class="auto-btn1"> </div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+            </div>
+            <!--automatic navigation end-->
+          </div>
+          <!--manual navigation start-->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+    
+        <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        }, 5000);
+        </script>
+    
+      </body>
+    </html>
+    <h1 class="FeaturedProduxtsText">Featured Products</h1>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+ 
+    <div class="row">
+      <div class="column">
+        <a href= 1st.html><img src="D:/coding/SCPROJECT/Images/sweatshirt.jpg" alt="Snow" style="width:100%"></a>
+      </div>
+      <div class="column">
+        <a href= second.html><img src="D:\coding\SCPROJECT\Images/sweatshirt2.jpg" alt="Forest" style="width:100%"></a>
+      </div>
+      
+      </div>
+    </div>
+</Body>
